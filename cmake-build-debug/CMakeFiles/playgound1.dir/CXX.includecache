@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/samue/CLionProjects/playgound1/Core.cpp
+Core.hpp
+/cygdrive/c/Users/samue/CLionProjects/playgound1/Core.hpp
+Player.hpp
+/cygdrive/c/Users/samue/CLionProjects/playgound1/Player.hpp
+Game.hpp
+/cygdrive/c/Users/samue/CLionProjects/playgound1/Game.hpp
+iostream
+-
+
+/cygdrive/c/Users/samue/CLionProjects/playgound1/Core.hpp
+
+/cygdrive/c/Users/samue/CLionProjects/playgound1/Game.cpp
+iostream
+-
+Game.hpp
+/cygdrive/c/Users/samue/CLionProjects/playgound1/Game.hpp
+
+/cygdrive/c/Users/samue/CLionProjects/playgound1/Game.hpp
+Player.hpp
+/cygdrive/c/Users/samue/CLionProjects/playgound1/Player.hpp
+
+/cygdrive/c/Users/samue/CLionProjects/playgound1/Player.cpp
+fstream
+-
+Player.hpp
+/cygdrive/c/Users/samue/CLionProjects/playgound1/Player.hpp
+
+/cygdrive/c/Users/samue/CLionProjects/playgound1/Player.hpp
+iostream
+-
+
