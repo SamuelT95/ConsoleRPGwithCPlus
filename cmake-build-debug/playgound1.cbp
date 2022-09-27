@@ -8,100 +8,106 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="playgound1">
-				<Option output="/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/playgound1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/playgound1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 playgound1"/>
-					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 playgound1"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="playgound1/fast">
-				<Option output="/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/playgound1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug"/>
+				<Option output="/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/playgound1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/11/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 playgound1/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 playgound1/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/samue/CLionProjects/playgound1/Core.cpp">
+		<Unit filename="/cygdrive/c/Users/Sam/CLionProjects/playgound1/Core.cpp">
 			<Option target="playgound1"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/samue/CLionProjects/playgound1/Core.hpp">
+		<Unit filename="/cygdrive/c/Users/Sam/CLionProjects/playgound1/Core.hpp">
 			<Option target="playgound1"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/samue/CLionProjects/playgound1/Game.cpp">
+		<Unit filename="/cygdrive/c/Users/Sam/CLionProjects/playgound1/Game.cpp">
 			<Option target="playgound1"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/samue/CLionProjects/playgound1/Game.hpp">
+		<Unit filename="/cygdrive/c/Users/Sam/CLionProjects/playgound1/Game.hpp">
 			<Option target="playgound1"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/samue/CLionProjects/playgound1/Player.cpp">
+		<Unit filename="/cygdrive/c/Users/Sam/CLionProjects/playgound1/Player.cpp">
 			<Option target="playgound1"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/samue/CLionProjects/playgound1/Player.hpp">
+		<Unit filename="/cygdrive/c/Users/Sam/CLionProjects/playgound1/Player.hpp">
 			<Option target="playgound1"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/samue/CLionProjects/playgound1/main.cpp">
+		<Unit filename="/cygdrive/c/Users/Sam/CLionProjects/playgound1/Vector.cpp">
 			<Option target="playgound1"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/samue/CLionProjects/playgound1/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Users/Sam/CLionProjects/playgound1/Vector.hpp">
+			<Option target="playgound1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Sam/CLionProjects/playgound1/main.cpp">
+			<Option target="playgound1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Sam/CLionProjects/playgound1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

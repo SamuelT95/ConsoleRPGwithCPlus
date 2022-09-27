@@ -10,7 +10,9 @@ using namespace std;
 struct Player {
     const int healthMax = 30;
     int health = 30;
-    void createEnemy();
+    string createEnemy();
+
+    string name;
 };
 
 

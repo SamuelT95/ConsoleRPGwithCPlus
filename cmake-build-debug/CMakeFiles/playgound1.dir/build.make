@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/samue/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/Sam/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/samue/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe -E rm -f
+RM = /cygdrive/c/Users/Sam/AppData/Local/JetBrains/CLion2021.2/cygwin_cmake/bin/cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/samue/CLionProjects/playgound1
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Sam/CLionProjects/playgound1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/playgound1.dir/depend.make
@@ -68,62 +68,76 @@ include CMakeFiles/playgound1.dir/flags.make
 
 CMakeFiles/playgound1.dir/main.cpp.o: CMakeFiles/playgound1.dir/flags.make
 CMakeFiles/playgound1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/playgound1.dir/main.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playgound1.dir/main.cpp.o -c /cygdrive/c/Users/samue/CLionProjects/playgound1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/playgound1.dir/main.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playgound1.dir/main.cpp.o -c /cygdrive/c/Users/Sam/CLionProjects/playgound1/main.cpp
 
 CMakeFiles/playgound1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/playgound1.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/samue/CLionProjects/playgound1/main.cpp > CMakeFiles/playgound1.dir/main.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Sam/CLionProjects/playgound1/main.cpp > CMakeFiles/playgound1.dir/main.cpp.i
 
 CMakeFiles/playgound1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/playgound1.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/samue/CLionProjects/playgound1/main.cpp -o CMakeFiles/playgound1.dir/main.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Sam/CLionProjects/playgound1/main.cpp -o CMakeFiles/playgound1.dir/main.cpp.s
 
 CMakeFiles/playgound1.dir/Core.cpp.o: CMakeFiles/playgound1.dir/flags.make
 CMakeFiles/playgound1.dir/Core.cpp.o: ../Core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/playgound1.dir/Core.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playgound1.dir/Core.cpp.o -c /cygdrive/c/Users/samue/CLionProjects/playgound1/Core.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/playgound1.dir/Core.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playgound1.dir/Core.cpp.o -c /cygdrive/c/Users/Sam/CLionProjects/playgound1/Core.cpp
 
 CMakeFiles/playgound1.dir/Core.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/playgound1.dir/Core.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/samue/CLionProjects/playgound1/Core.cpp > CMakeFiles/playgound1.dir/Core.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Sam/CLionProjects/playgound1/Core.cpp > CMakeFiles/playgound1.dir/Core.cpp.i
 
 CMakeFiles/playgound1.dir/Core.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/playgound1.dir/Core.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/samue/CLionProjects/playgound1/Core.cpp -o CMakeFiles/playgound1.dir/Core.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Sam/CLionProjects/playgound1/Core.cpp -o CMakeFiles/playgound1.dir/Core.cpp.s
 
 CMakeFiles/playgound1.dir/Player.cpp.o: CMakeFiles/playgound1.dir/flags.make
 CMakeFiles/playgound1.dir/Player.cpp.o: ../Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/playgound1.dir/Player.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playgound1.dir/Player.cpp.o -c /cygdrive/c/Users/samue/CLionProjects/playgound1/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/playgound1.dir/Player.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playgound1.dir/Player.cpp.o -c /cygdrive/c/Users/Sam/CLionProjects/playgound1/Player.cpp
 
 CMakeFiles/playgound1.dir/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/playgound1.dir/Player.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/samue/CLionProjects/playgound1/Player.cpp > CMakeFiles/playgound1.dir/Player.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Sam/CLionProjects/playgound1/Player.cpp > CMakeFiles/playgound1.dir/Player.cpp.i
 
 CMakeFiles/playgound1.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/playgound1.dir/Player.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/samue/CLionProjects/playgound1/Player.cpp -o CMakeFiles/playgound1.dir/Player.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Sam/CLionProjects/playgound1/Player.cpp -o CMakeFiles/playgound1.dir/Player.cpp.s
 
 CMakeFiles/playgound1.dir/Game.cpp.o: CMakeFiles/playgound1.dir/flags.make
 CMakeFiles/playgound1.dir/Game.cpp.o: ../Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/playgound1.dir/Game.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playgound1.dir/Game.cpp.o -c /cygdrive/c/Users/samue/CLionProjects/playgound1/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/playgound1.dir/Game.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playgound1.dir/Game.cpp.o -c /cygdrive/c/Users/Sam/CLionProjects/playgound1/Game.cpp
 
 CMakeFiles/playgound1.dir/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/playgound1.dir/Game.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/samue/CLionProjects/playgound1/Game.cpp > CMakeFiles/playgound1.dir/Game.cpp.i
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Sam/CLionProjects/playgound1/Game.cpp > CMakeFiles/playgound1.dir/Game.cpp.i
 
 CMakeFiles/playgound1.dir/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/playgound1.dir/Game.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/samue/CLionProjects/playgound1/Game.cpp -o CMakeFiles/playgound1.dir/Game.cpp.s
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Sam/CLionProjects/playgound1/Game.cpp -o CMakeFiles/playgound1.dir/Game.cpp.s
+
+CMakeFiles/playgound1.dir/Vector.cpp.o: CMakeFiles/playgound1.dir/flags.make
+CMakeFiles/playgound1.dir/Vector.cpp.o: ../Vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/playgound1.dir/Vector.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playgound1.dir/Vector.cpp.o -c /cygdrive/c/Users/Sam/CLionProjects/playgound1/Vector.cpp
+
+CMakeFiles/playgound1.dir/Vector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/playgound1.dir/Vector.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Sam/CLionProjects/playgound1/Vector.cpp > CMakeFiles/playgound1.dir/Vector.cpp.i
+
+CMakeFiles/playgound1.dir/Vector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/playgound1.dir/Vector.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Sam/CLionProjects/playgound1/Vector.cpp -o CMakeFiles/playgound1.dir/Vector.cpp.s
 
 # Object files for target playgound1
 playgound1_OBJECTS = \
 "CMakeFiles/playgound1.dir/main.cpp.o" \
 "CMakeFiles/playgound1.dir/Core.cpp.o" \
 "CMakeFiles/playgound1.dir/Player.cpp.o" \
-"CMakeFiles/playgound1.dir/Game.cpp.o"
+"CMakeFiles/playgound1.dir/Game.cpp.o" \
+"CMakeFiles/playgound1.dir/Vector.cpp.o"
 
 # External object files for target playgound1
 playgound1_EXTERNAL_OBJECTS =
@@ -132,9 +146,10 @@ playgound1.exe: CMakeFiles/playgound1.dir/main.cpp.o
 playgound1.exe: CMakeFiles/playgound1.dir/Core.cpp.o
 playgound1.exe: CMakeFiles/playgound1.dir/Player.cpp.o
 playgound1.exe: CMakeFiles/playgound1.dir/Game.cpp.o
+playgound1.exe: CMakeFiles/playgound1.dir/Vector.cpp.o
 playgound1.exe: CMakeFiles/playgound1.dir/build.make
 playgound1.exe: CMakeFiles/playgound1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable playgound1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable playgound1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/playgound1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -146,6 +161,6 @@ CMakeFiles/playgound1.dir/clean:
 .PHONY : CMakeFiles/playgound1.dir/clean
 
 CMakeFiles/playgound1.dir/depend:
-	cd /cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/samue/CLionProjects/playgound1 /cygdrive/c/Users/samue/CLionProjects/playgound1 /cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug /cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug /cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/CMakeFiles/playgound1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Sam/CLionProjects/playgound1 /cygdrive/c/Users/Sam/CLionProjects/playgound1 /cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug /cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug /cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/CMakeFiles/playgound1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/playgound1.dir/depend
 

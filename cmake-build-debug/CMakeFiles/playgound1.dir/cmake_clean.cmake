@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/playgound1.dir/Core.cpp.o"
   "CMakeFiles/playgound1.dir/Game.cpp.o"
   "CMakeFiles/playgound1.dir/Player.cpp.o"
+  "CMakeFiles/playgound1.dir/Vector.cpp.o"
   "CMakeFiles/playgound1.dir/main.cpp.o"
   "libplaygound1.dll.a"
   "playgound1.exe"

@@ -1,3 +1,3 @@
-/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/c/Users/samue/CLionProjects/playgound1/cmake-build-debug/CMakeFiles/playgound1.dir
+/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/Sam/CLionProjects/playgound1/cmake-build-debug/CMakeFiles/playgound1.dir

@@ -23,7 +23,7 @@ void Core::menu() {
                 "\n 0. Quit"
                 "\n 1. Play"
                 "\n>> ";
-        cin >> choice; // cannot put in switch i guess..
+        cin >> choice;
         switch (choice) {
             case 1:
                 cout << "Playing" << endl;

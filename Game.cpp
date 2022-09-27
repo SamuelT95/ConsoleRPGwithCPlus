@@ -6,11 +6,14 @@
 using namespace std;
 
 void Game::stats(Player player) {
-    cout << "Stats: Health: " << player.health << endl;
+    cout << "Name: " << player.name << " | Stats: Health: " << player.health << endl;
 }
 
 void Game::fight() {
     Player enemy;
+    enemy.name = enemy.createEnemy();
+    stats(enemy);
+
 //    stats(enemy);
 //    stats(player);
 }
@@ -28,8 +31,8 @@ void Game::gameMenu() {
         switch (options) {
             case 1:
                 fight();
-                cout << "Arron Ferguson used Rick-Roll."
-                        "\n Arron Ferguson escaped!" << endl;
+//                cout << "Arron Ferguson used Rick-Roll."
+//                        "\n Arron Ferguson escaped!" << endl;
                 break;
             case 2:
                 cout << "Drinking water at BCIT" << endl;

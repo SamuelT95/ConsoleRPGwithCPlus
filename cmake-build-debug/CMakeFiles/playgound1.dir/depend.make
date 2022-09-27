@@ -13,6 +13,9 @@ CMakeFiles/playgound1.dir/Game.cpp.o: \
 CMakeFiles/playgound1.dir/Player.cpp.o: \
  ../Player.cpp \
  ../Player.hpp
+CMakeFiles/playgound1.dir/Vector.cpp.o: \
+ ../Vector.cpp \
+ ../Vector.hpp
 CMakeFiles/playgound1.dir/main.cpp.o: \
  ../core.hpp \
  ../main.cpp
