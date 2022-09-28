@@ -6,6 +6,7 @@
 #define PLAYGOUND1_GAME_HPP
 
 #include "Player.hpp"
+#include "Enemy.hpp"
 
 
 struct Game {
@@ -14,9 +15,8 @@ struct Game {
     void gameMenu();
     void fight();
 
-    void stats();
-
-    void stats(Player player);
+    static void stats(const Player& player);
+    void stats(const Enemy& Enemy);
 };
 
 #endif //PLAYGOUND1_GAME_HPP

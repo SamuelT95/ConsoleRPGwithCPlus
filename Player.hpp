@@ -8,11 +8,10 @@
 using namespace std;
 
 struct Player {
-    const int healthMax = 30;
+    int healthMax = 30;
     int health = 30;
-    string createEnemy();
-
-    string name;
+    void createEnemy();
+    string name = "You";
 };
 
 

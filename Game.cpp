@@ -3,15 +3,24 @@
 //
 #include <iostream>
 #include "Game.hpp"
+#include "Enemy.hpp"
+
+#define RED     "\033[31m"      /* Red */
+#define RESET   "\033[0m"
+#define BOLDBLUE    "\033[1m\033[34m"      /* Bold Blue */
+
 using namespace std;
 
-void Game::stats(Player player) {
-    cout << "Name: " << player.name << " | Stats: Health: " << player.health << endl;
+void Game::stats(const Player& player) {
+    cout << BOLDBLUE << "Name: " << player.name << " | Stats: Health: " << player.health << RESET << endl;
+}
+void Game::stats(const Enemy& enemy) {
+    cout << BOLDBLUE << "Name: " << player.name << " | Stats: Health: " << player.health << RESET << endl;
 }
 
 void Game::fight() {
-    Player enemy;
-    enemy.name = enemy.createEnemy();
+    Enemy enemy;
+    enemy.createEnemy();
     stats(enemy);
 
 //    stats(enemy);
@@ -23,21 +32,19 @@ void Game::gameMenu() {
     int options;
     while (isOn) {
         cout << "Game menu: "
-                "\n 1. Fight Arron Ferguson"
-                "\n 2. Drink from a water fountain at BCIT"
+                "\n 1. Fight "
+                "\n 2. Restore HP at Student Health"
                 "\n 0. Quit"
                 "\n << " << endl;
         cin >> options;
         switch (options) {
             case 1:
                 fight();
-//                cout << "Arron Ferguson used Rick-Roll."
-//                        "\n Arron Ferguson escaped!" << endl;
                 break;
             case 2:
-                cout << "Drinking water at BCIT" << endl;
+                cout << "Health restored back to full." << endl;
                 player.health = player.healthMax;
-                cout << "Health: " << player.health << endl;
+                stats(player);
                 break;
             case 0:
                 isOn = false;
@@ -49,10 +56,12 @@ void Game::gameMenu() {
 }
 
 Game::Game() {
-    cout << "This is your health: "<< player.health << endl;
-    cout << "This is your MAX health: "<< player.healthMax << endl;
+    cout << "Welcome to BCIT C++ console rpg. These are your stats:" << endl;
+    cout << BOLDBLUE << "max health: " << player.healthMax << endl;
+    cout << "current health: " << player.health << RESET << endl;
+    cout << "If you get hurt, you can restore your health back at BCIT Student Health clinic." << endl;
+    cout << RED << "You taken " << player.health / 2 << " damage." << RESET << endl;
     player.health = player.health / 2;
-    cout << "You studied too hard, lose half ur health, you should go get health from a water fountain dude" << endl;
-    cout << "This is your health: "<< player.health << endl;
+    cout << "Your health is now at " << player.health << endl;
     gameMenu();
 }

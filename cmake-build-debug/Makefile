@@ -153,6 +153,30 @@ Core.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/playgound1.dir/build.make CMakeFiles/playgound1.dir/Core.cpp.s
 .PHONY : Core.cpp.s
 
+Enemy.o: Enemy.cpp.o
+.PHONY : Enemy.o
+
+# target to build an object file
+Enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playgound1.dir/build.make CMakeFiles/playgound1.dir/Enemy.cpp.o
+.PHONY : Enemy.cpp.o
+
+Enemy.i: Enemy.cpp.i
+.PHONY : Enemy.i
+
+# target to preprocess a source file
+Enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playgound1.dir/build.make CMakeFiles/playgound1.dir/Enemy.cpp.i
+.PHONY : Enemy.cpp.i
+
+Enemy.s: Enemy.cpp.s
+.PHONY : Enemy.s
+
+# target to generate assembly for a file
+Enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playgound1.dir/build.make CMakeFiles/playgound1.dir/Enemy.cpp.s
+.PHONY : Enemy.cpp.s
+
 Game.o: Game.cpp.o
 .PHONY : Game.o
 
@@ -261,6 +285,9 @@ help:
 	@echo "... Core.o"
 	@echo "... Core.i"
 	@echo "... Core.s"
+	@echo "... Enemy.o"
+	@echo "... Enemy.i"
+	@echo "... Enemy.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"

@@ -26,7 +26,6 @@ void Core::menu() {
         cin >> choice;
         switch (choice) {
             case 1:
-                cout << "Playing" << endl;
                 playGame();
                 break;
 

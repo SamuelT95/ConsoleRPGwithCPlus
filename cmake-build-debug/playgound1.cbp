@@ -86,6 +86,12 @@
 		<Unit filename="/cygdrive/c/Users/Sam/CLionProjects/playgound1/Core.hpp">
 			<Option target="playgound1"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Sam/CLionProjects/playgound1/Enemy.cpp">
+			<Option target="playgound1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Sam/CLionProjects/playgound1/Enemy.hpp">
+			<Option target="playgound1"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Sam/CLionProjects/playgound1/Game.cpp">
 			<Option target="playgound1"/>
 		</Unit>
